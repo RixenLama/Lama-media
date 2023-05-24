@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  overflow-y: smooth;
+  overflow-x: hidden;
+   font-family: Montserrat, Helvetica, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Montserrat, Helvetica, sans-serif !important;
+}

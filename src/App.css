@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-lg;
+  font-family: Montserrat, Helvetica, sans-serif !important;
+  overflow-x: hidden;
+}
+
+.projects img {
+  width: 100%;
+}
+
+/* color */
+.bg-primary {
+  /* background: #ffffff; */
+}
+
+.bg-secondery {
+  background: #ffffff;
+}
+
+.bg-accent {
+  background: #7477ff;
+}
+
+.text-accent {
+  color: #7477ff;
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477ff;
+}
+
+/* .mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+} */
+
+/* hero */
+h1 {
+  line-height: 1.5 !important;
+}
+
+button{
+    transition: 0.3s;
+}
+button:hover {
+    box-shadow:  3px 3px 20px 0px rgba(255, 255, 255, 0.326),
+      0 233px 233px 0px rgba(240, 239, 239, 0.234) inset;
+    transform: translateY(-15px);
+  }
+
+  .bs-container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  @media (min-width: 768px) {
+    .bs-container {
+      width: 750px !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .bs-container {
+      width: 970px !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    .bs-container {
+      width: 1170px !important;
+    }
+  }
