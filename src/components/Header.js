@@ -7,10 +7,10 @@ const Header = () => {
 
   return (
     <>
-    <header className="flex justify-center md:justify-between px-5 md:mx-auto py-2 bg-primary absolute w-full">
+    <header className="flex justify-center md:justify-between px-5 md:mx-auto  bg-primary absolute w-full">
       <Link to="/" className="   ">
         <div>
-        <h2 className="mt-10 ml-0 md:ml-10 text-[#ffff] text-26px md:text-[30px]"><b>LAMA</b>-Media</h2>
+        <h2 className="mt-6 ml-0 md:ml-10 text-[#ffff] text-26px md:text-[30px]"><b>LAMA</b>-Media</h2>
           </div>
         {/* <img
         className="w-[150px] mt-10 mx-10"

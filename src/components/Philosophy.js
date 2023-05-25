@@ -58,16 +58,16 @@ const Philosophy = () => {
               href="/#call"
               className="  text-white  md:ml-auto mt-4 flex items-center justify-center lg:justify-start"
             >
-              <button className="bg-[#b90edf] mr-[1rem] md:mx-0 text-white sm:py-[10px] px-8 py-2sm-12 md:px-16  rounded-full">
-                <div className="block w-max">
-                  <span className="  min-[2000px]:text-[1.5rem] font-extrabold sm:text-[18px] text-[14px] text-gray-100">
-                    Speak to our team today
-                  </span>
-                  <span className="  min-[2000px]:text-[1.5rem] block sm:text-[18px] text-[14px] text-gray-300">
-                    Schedule your free audio call now
-                  </span>
-                </div>
-              </button>
+              <button className="bg-[#b90edf] mainBtn mr-[1rem] md:mx-0 text-white   px-3 sm:py-[13px] sm:px-8 md:px-10  rounded-full">
+                    <div className="block w-max">
+                      <span className="font-extrabold leading-5 text-[14px] sm:text-[18] md:text-[24px] text-gray-100">
+                        Speak To Our Team Today
+                      </span>
+                      <span className="block text-[14px] leading-5 sm:text-[15px] text-gray-300">
+                        Schedule your free audio call now
+                      </span>
+                    </div>
+                  </button>
             </a>
           </div>
         </div>

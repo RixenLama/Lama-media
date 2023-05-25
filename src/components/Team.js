@@ -45,16 +45,16 @@ const Team = () => {
         </div>
 
         <div className="max-[400px]:w-[93%] max-[400px]:mx-[15px]  md:w-[40%] p-4">
-          <h2 className="min-[2000px]:text-[2rem] text-4xl font-bold mb-4 text-[#fc3792]">
+          <h2 className="min-[2000px]:text-[2rem] text-4xl font-extrabold mb-4 text-[#fc3792]">
             Meet The Crew
           </h2>
-          <p className="min-[2000px]:text-[1.5rem] text-[20px] text-gray-100 tracking-wide pb-2 text-left">
+          <p className="min-[2000px]:text-[1.5rem] text-[18px] text-gray-100 tracking-wide pb-2 text-left">
             Founded by Rixen Lama who has spend the past 3 years of his life
             coding, and mastering the fundimental skills of web design and
             development.{" "}
           </p>
           <br />
-          <p className=" min-[2000px]:text-[1.5rem] text-[20px] text-gray-100 tracking-wide pb-2 text-left">
+          <p className=" min-[2000px]:text-[1.5rem] text-[18px] text-gray-100 tracking-wide pb-2 text-left">
             With our past experience in the web marketing industry. Lama Media
             provides clients with their own custom handmade website, that goes
             through a rigorous process of discussion with clients inorder to
@@ -73,21 +73,21 @@ const Team = () => {
         </button>
           </a> */}
 
-            <div className="     ">
+            <div className="     " >
               <a
                 href="/#call"
                 className="  text-white  md:ml-auto mt-4 flex items-center justify-center lg:justify-start"
               >
-                <button className="bg-[#b90edf] mr-[2rem] md:mx-0 text-white px-8 py-2 sm:py-[10px] sm:px-12 md:px-16  rounded-full">
-                  <div className="block w-max">
-                    <span className="min-[2000px]:text-[2rem] font-extrabold text-[14px] sm:text-[18px] text-gray-100">
-                      Speak to our team today
-                    </span>
-                    <span className=" min-[2000px]:text-[2rem] block text-[14px] sm:text-[14px] text-gray-300">
-                      Schedule your free audio call now
-                    </span>
-                  </div>
-                </button>
+               <button className="bg-[#b90edf] mainBtn mr-[1rem] md:mx-0 text-white   px-3 sm:py-[13px] sm:px-8 md:px-10  rounded-full">
+                    <div className="block w-max">
+                      <span className="font-extrabold leading-5 text-[14px] sm:text-[18] md:text-[24px] text-gray-100">
+                        Speak To Our Team Today
+                      </span>
+                      <span className="block text-[14px] leading-5 sm:text-[15px] text-gray-300">
+                        Schedule your free audio call now
+                      </span>
+                    </div>
+                  </button>
               </a>
             </div>
           </div>
