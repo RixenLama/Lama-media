@@ -3,14 +3,13 @@ import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 function ContactForm() {
   return (
-    <div className="   bg-[rgb(17,16,17)] p-10 mb-10 text-[#fff] flex justify-center">
-     {/* <div className="max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[105%] max-[374px]:w-[97%]"> */}
-  <div className="bs-container flex justify-center">
-     <div className="w-full sm:w-4/5 md:w-3/4 lg:w-3/4 xl:w-3/4">
+    <div className="max-[370px]:w-[145%] max-[400px]:w-[120%] max-[450px]:w-[105%] bg-cover  bg-no-repeat bg bg-white bg-[url('/src/assets/image5.png')] ">
+    <div className="bs-container">
+      <div className="mx-auto my-4 py-12 w-full sm:w-4/5 md:w-3/4 lg:w-3/4 xl:w-3/4">
         <h1 className="text-left text-4xl font-bold text-[#fc3792]">
            Contact
         </h1>
-        <div className="flex justify-between flex-col  lg:flex-row py-10">
+        <div className="flex justify-between flex-col md:flex-row py-10">
           <div className="flex pt-2">
           <div className="flex w-12 h-12 mr-4 rounded bg-[#fc3792]">
 
@@ -18,7 +17,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Phone Number</span>
-              <span>+358449874720</span>
+              <span><a target="_blank" href="tel:+358449874720">+358449874720</a></span>
             </div>
           </div>
           <div className="flex pt-2">
@@ -28,7 +27,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Email</span>
-              <span>lamamediaop@gmail.com</span>
+              <span><a target="_blank" href="mailto:lamamediaop@gmail.com">lamamediaop@gmail.com</a></span>
             </div>
           </div>
           <div className="flex pt-2">
@@ -38,7 +37,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Instagram</span>
-              <span>@lama-media</span>
+              <span><a target="_blank" href="https://www.instagram.com/lama__media/">@lama-media</a></span>
             </div>
           </div>
         </div>
@@ -63,15 +62,14 @@ function ContactForm() {
               name="privacy-policy"
               className="mr-2"
             />
-            <label htmlFor="privacy-policy">I accept the privacy policy</label>
+            <label htmlFor="privacy-policy" ><span style={{color:"white"}}>I accept the privacy policy</span></label>
           </div>
           <button className="bg-[#fc3792] rounded text-white py-2 px-4">
             Send Message
           </button>
         </form>
-      {/* </div> */}
-     </div>
-    </div>
+      </div>
+      </div>
     </div>
   );
 }
