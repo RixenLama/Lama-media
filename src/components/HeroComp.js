@@ -14,7 +14,7 @@ const Hero = () => {
               <h1 className="text-white mb-1 md:mb-4 font-bold uppercase text-xl md:text-1xl text-left tracking-widest xl:text-2xl">
                 Current Era Magic
               </h1>
-              <h2 className=" leading-9 mb-1 md:mb-4 text-left text-[#FC3792] font-extrabold  text-xl md:text-2xl text-left tracking-widest xl:text-4xl">
+              <h2 className="uppercase leading-9 mb-1 md:mb-4 text-left text-[#FC3792] font-extrabold  text-xl md:text-2xl text-left tracking-widest xl:text-4xl">
                 We help startups and new businesses enter the online market via
                 websites.
               </h2>
