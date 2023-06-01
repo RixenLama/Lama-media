@@ -35,7 +35,7 @@ const Offerclone = () => {
             href="/#call"
             className="  text-white w-full  min-[958px]:ml-auto mt-6 flex items-center justify-center lg:justify-start mb-14"
           >
-        <button className="bg-[#b90edf] mainBtn mr-[1rem] md:mx-0 text-white   px-3 sm:py-[13px] sm:px-8 md:px-10  rounded-full">
+         <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white   px-3 py-[10px] sm:py-[14px] px-10  rounded-full">
                     <div className="block w-max">
                       <span className="font-extrabold leading-5 text-[14px] sm:text-[18] md:text-[24px] text-gray-100">
                         Speak To Our Team Today

@@ -3,7 +3,7 @@ import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 function ContactForm() {
   return (
-    <div className="max-[370px]:w-[145%] max-[400px]:w-[120%] max-[450px]:w-[105%] bg-cover  bg-no-repeat bg bg-white bg-[url('/src/assets/image5.png')] ">
+    <div className="max-[370px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[100%] bg-cover  bg-no-repeat bg bg-white bg-[url('/src/assets/image5.png')] ">
     <div className="bs-container">
       <div className="mx-auto my-4 py-12 w-full sm:w-4/5 md:w-3/4 lg:w-3/4 xl:w-3/4">
         <h1 className="text-left text-4xl font-bold text-[#fc3792]">

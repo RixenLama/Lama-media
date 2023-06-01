@@ -10,7 +10,7 @@ const Hero = () => {
         </div> */}
         <div className="  container mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="max-[389px]:w-[100vw] md:mt-[15rem] xl:mt-[5rem] max-[360px]:w-[100%] max-[400px]:w-[90%] max-[400px]:mx-[5px] flex-1 w-full flex md:p-10 min-[1600px]:pt-10 mt-[5rem]  ">
-            <div className="  md:mr-[-7rem] md:ml-[1rem] md:flex-1 md:mt-[-6rem] min-[1250px]:mr-[-14rem] min-[1550px]:mt-[-14rem]  xl:mt-[-5rem]">
+            <div className="  md:mr-[-7rem] mr-[1rem] ml-[1rem] md:flex-1 md:mt-[-6rem] min-[1250px]:mr-[-14rem] min-[1550px]:mt-[-14rem]  xl:mt-[-5rem]">
               <h1 className="text-white mb-1 md:mb-4 font-bold uppercase text-xl md:text-1xl text-left tracking-widest xl:text-2xl">
                 Current Era Magic
               </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
                   href="/#call"
                   className=" text-white   md:ml-auto mt-5 flex items-center justify-center md:justify-start "
                 >
-                  <button className="bg-[#b90edf] mainBtn mr-[1rem] md:mx-0 text-white   px-3 sm:py-[13px] sm:px-8 md:px-10  rounded-full">
+                  <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white   px-3 py-[10px] sm:py-[14px] px-10  rounded-full">
                     <div className="block w-max">
                       <span className="font-extrabold leading-5 text-[14px] sm:text-[18] md:text-[24px] text-gray-100">
                         Speak To Our Team Today
