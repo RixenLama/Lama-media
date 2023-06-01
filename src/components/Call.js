@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { TbCircleCheckFilled } from "react-icons/tb";
 
 const Call = () => {

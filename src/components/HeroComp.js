@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import { iamawizard, image } from "../assets";
+import { iamawizard } from "../assets";
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
               <h1 className="text-white mb-1 md:mb-4 font-bold uppercase text-xl md:text-1xl text-left tracking-widest xl:text-2xl">
                 Current Era Magic
               </h1>
-              <h2 className="uppercase leading-9 mb-1 md:mb-4 text-left text-[#FC3792] font-extrabold  text-xl md:text-2xl text-left tracking-widest xl:text-4xl">
+              <h2 className="uppercase leading-9 mb-1 md:mb-4 text-left text-[#FC3792] font-extrabold  text-xl md:text-2xl tracking-widest xl:text-4xl">
                 We help startups and new businesses enter the online market via
                 websites.
               </h2>
@@ -34,7 +35,7 @@ const Hero = () => {
                   href="/#call"
                   className=" text-white   md:ml-auto mt-5 flex items-center justify-center md:justify-start "
                 >
-                  <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white   px-3 py-[10px] sm:py-[14px] px-10  rounded-full">
+                  <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white px-10 py-[10px] sm:py-[14px]  rounded-full">
                     <div className="block w-max">
                       <span className="font-extrabold leading-5 text-[14px] sm:text-[18] md:text-[24px] text-gray-100">
                         Speak To Our Team Today
@@ -50,7 +51,7 @@ const Hero = () => {
           </div>
 
           <div className=" flex items-center justify-center md:pt-16 xl:pt-20 xl:ml-28 flex-1 w-full md:w-[100%]  xl:mb-[5rem]  min-[1600px]:mt-[-2rem]  md:mt-[-10rem]  min-[2000px]:mt-[1rem] px-10">
-            <div className=" md:mt-[10rem]  2xl:mt-[5rem] 2xl:mt-[-3rem]">
+            <div className=" md:mt-[10rem]  2xl:mt-[5rem]">
               <img
                 className=" w-[100%] h-full md:w-[100%] md:pl-4"
                 src={iamawizard}
