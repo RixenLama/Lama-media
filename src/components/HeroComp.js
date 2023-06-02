@@ -5,10 +5,7 @@ import { iamawizard } from "../assets";
 const Hero = () => {
   return (
     <div className="  max-[450px]:w-[100%] w-[100%] bg-cover bg-no-repeat bg-white bg-[url('/src/assets/image.png')]">
-      <div className="bs-container max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[100%] max-[374px]:w-[97%]  pt-[20px]  2xl:pt-[200px] lg:pb-[1rem]  max-[1500px]:pb-auto pb-auto outline-none flex items-center justify-center">
-        {/* <div className="flex mb-4 md:mb-0">
-          <img  className="w-[150px] m-10" src="https://images.clickfunnels.com/ed/749dda621d4e25ac4bcf44c4095edb/logo.png" alt="Logo" className="w-10 h-10 mr-2" />
-        </div> */}
+      <div className="bs-container max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[100%] max-[374px]:w-[97%] pt-[2px] 2xl:pt-[75px] lg:pb-[1rem]  max-[1500px]:pb-auto pb-auto outline-none flex items-center justify-center">
         <div className="  container mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="max-[389px]:w-[100vw] md:mt-[15rem] xl:mt-[5rem] max-[360px]:w-[100%] max-[400px]:w-[90%] max-[400px]:mx-[5px] flex-1 w-full flex md:p-10 min-[1600px]:pt-10 mt-[5rem]  ">
             <div className="  md:mr-[-7rem] mr-[1rem] ml-[1rem] md:flex-1 md:mt-[-6rem] min-[1250px]:mr-[-14rem] min-[1550px]:mt-[-14rem]  xl:mt-[-5rem]">
