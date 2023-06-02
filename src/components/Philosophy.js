@@ -9,11 +9,6 @@ const Philosophy = () => {
     >
       <div className="bs-container max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[105%] max-[374px]:w-[97%] container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className=" max-[400px]:px-[2rem] w-[100%] max-[400px]:w-[100%] md:w-[90%] md:mx-auto">
-          {/* <img
-            src="https://images.clickfunnels.com/87/19aca7c1eb43e9bf2ef112a8c1c348/stats-v2.png"
-            alt="coding illustration"
-            className="w-[100%] md:mx-auto"
-          /> */}
           <div className="max-[400px]:mx-auto max-[400px]:w-[100%] w-[100%] md:mx-auto">
             <PhilosophyCard></PhilosophyCard>
           </div>
@@ -25,14 +20,13 @@ const Philosophy = () => {
             </h3>
 
             <p className=" min-[2000px]:text-[1.5rem] pb-3 text-[18px] tracking-wide text-gray-500 text-left">
-              Here at IAG Media, we've worked with the best in the industry to
-              produce millions of dollars in return on ad spend. We do away with
-              the the inefficiencies & formalities that plague most agencies.
+              At Lama Media, we believe that web design and development transcend mere aesthetics and technical functionality. 
+              We approach our work as a creative endeavor and a means to shape the digital landscape. Our philosophy encompasses 
+              a holistic approach to crafting exceptional online experiences that captivate, engage, and inspire. 
             </p>
             <p className="  min-[2000px]:text-[1.5rem] pb-3 text-[18px] tracking-wide text-gray-500">
-              Our client case studies have become myth, our waiting list is
-              longer than your complaints with your current agency and we look
-              for a very specific kind of client.
+              Rooted in principles of artistry, innovation, and user-centricity, our philosophy drives us to push boundaries and 
+              deliver remarkable solutions for our clients.
             </p>
 
             <p className="  min-[2000px]:text-[1.5rem] text-[18px] tracking-wide text-black font-bold mb-5">

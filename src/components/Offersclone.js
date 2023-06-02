@@ -10,7 +10,7 @@ const Offerclone = () => {
     >
 
       <div className="bs-container max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[105%] max-[375px]:w-[97%] max-[400px]:mx-[5px] xl:w-[100%] max-[1800px]:container  lg:pl-[2rem] xl:pl-[10rem]   ">
-        <div className="md:w-[95%] lg:w-[100%] min-[1600px]:w-[100%] xl:max-w-[80%] grid-cols-1 grid lg:grid-cols-2 lg:gap-x-16 px-5 min-[1400px]:m-[5rem]   min-[2100px]:mx-[10rem] ">
+        <div className="md:w-[95%] lg:w-[100%] min-[1600px]:w-[100%] xl:max-w-[80%] grid-cols-1 grid lg:grid-cols-2 lg:gap-x-2 px-5 min-[1400px]:m-[5rem]   min-[2100px]:mx-[10rem] ">
           <div className=" min-[780px]:w-[110%] min-[2100px]:ml-[10rem] md:w-[105%] min-[850px]:w-[100%] lg:ml-auto sm:w-[110%] lg:w-[115%] xl:w-[130%]  min-[1000px]:w-[110%]  min-[1400px]:ml-[-5rem] min-[1469px]:mt-[5rem]  mt-[1rem] ">
             <h2 className=" min-[2000px]:text-[2rem] max-[400px]:text-[16px] max-[600px]:mt-16 mt-8 text-[28px] text-white  ">
             What we offer
@@ -50,7 +50,7 @@ const Offerclone = () => {
     </div>
 
 
-          <div className="xl:mt-[10rem] min-[2000px]:mt[12rem] mt-5 min-[1500px]:mt-[20rem] min-[2100px]:ml-[20rem] lg:mt-[13.5rem] max-[400px]:w-[95%] max-[400px]:mx-[5px] w-[105%] xl:w-[120%] sm:w-[115%] md:w-[100%] md:ml-10 lg:ml-[4rem] xl:ml-36">
+          <div className="xl:mt-[10rem] min-[2000px]:mt[12rem] min-[1500px]:mt-[20rem] min-[2100px]:ml-[20rem] lg:mt-[13.5rem] max-[400px]:w-[95%] max-[400px]:mx-[5px] w-[105%] xl:w-[120%] sm:w-[115%] md:w-[100%] md:ml-10 lg:ml-[4rem] xl:ml-36">
             <h1 className="uppercase min-[2000px]:text-[2rem] text-xl leading-[1.6] mb-[1rem] font-extrabold mt-4 text-white ">
             Knowledge requires long-time focus so...
             </h1>

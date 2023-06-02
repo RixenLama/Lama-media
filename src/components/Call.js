@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { TbCircleCheckFilled } from "react-icons/tb";
 
@@ -7,14 +9,6 @@ const Call = () => {
       className="max-[450px]:w-[100%] w-100%  bs-container md:mt-20 mx-auto flex flex-col md:flex-row"
       id="call"
     >
-      <div className=" max-[425px]:w-[100%] max-[400px]:w-[100%] max-[450px]:w-[105%] max-[374px]:w-[97%] max-[500px]:w-[93%] max-[400px]:mx-[5px] container  flex-1 justify-center items-center md:mr-[3rem] xl:mr-[-2rem] md:w-[50] border-[2px] border-solid border-black rounded-md md:my-[4rem]">
-        <img
-          src="https://media.istockphoto.com/id/1399588872/vector/corrupted-pixel-file-icon-damage-document-symbol-sign-broken-data-vector.jpg?s=612x612&w=0&k=20&c=ffG6gVLUPfxZkTwjeqdxD67LWd8R1pQTIyIVUi-Igx0="
-          alt="Call Image"
-          className="w-[80%] h-[80%] px-5"
-        />
-      </div>
-
       <div className=" max-[400px]:w-[95%] max-[400px]:mx-[5px]  md:w-[100%] mx-auto px-auto md:pl-[2rem] xl:pl-[5rem] p-4 flex flex-1 flex-col justify-start">
         <div className="md:max-w-[70%] ">
           <div className=" flex justify-center items-center md:justify-start ">
@@ -43,9 +37,6 @@ const Call = () => {
               schedule your call right away.
             </p>
           </div>
-          {/* { window.screenX < 700  && <div className="md:w-1/2">
-               <img src="image-url" alt="Call Image" className="w-[90%] h-auto" />
-               </div>} */}
           <div className=" max-[400px]:w-[95%] max-[400px]:mx-[5px] md:w-[140%]">
             <h1 className="min-[2000px]:text-[1.7rem] text-xl leading-[1.6] mb-[1rem] font-extrabold mt-4 text-[#FC3792]">
               THIS AUDIT CALL IS PERFECT FOR:
@@ -112,6 +103,11 @@ const Call = () => {
                 </span>
               </li>
             </ul>
+          </div>
+          <div>
+            <a className=" leading-5 text-[10px] sm:text-[18] md:text-[24px] text-gray-100" href="https://calendly.com/lamamedia">
+              <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white py-[10px] sm:py-[14px] px-10  rounded-full">Book a time</button>
+            </a>
           </div>
         </div>
       </div>
