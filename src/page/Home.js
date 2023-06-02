@@ -26,7 +26,7 @@ const Home = () => {
   ]
   return (
     <>
-       <Header />
+      <Header />
       <HeroComp />
       <Philosophy />
       {/* <Offer /> */}

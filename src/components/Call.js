@@ -19,7 +19,7 @@ const Call = () => {
         <div className="md:max-w-[70%] ">
           <div className=" flex justify-center items-center md:justify-start ">
             <img
-              src="https://images.clickfunnels.com/bf/77ef56394c47e7a2661f06d38797f3/large-DSC08508.jpg"
+              src="./rixen.jpg"
               alt="Profile"
               className="w-[170px]  mb-4 rounded-full border-[5px] border-solid border-[#610a33]"
             />
