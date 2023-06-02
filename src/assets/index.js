@@ -8,6 +8,6 @@ export {
   image,
   image2,
   image3,
- image4,
+  image4,
   iamawizard,
 };

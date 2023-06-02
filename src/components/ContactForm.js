@@ -17,7 +17,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Phone Number</span>
-              <span><a target="_blank" href="tel:+358449874720">+358449874720</a></span>
+              <span><a target="_blank" rel="noreferrer" href="tel:+358449874720">+358449874720</a></span>
             </div>
           </div>
           <div className="flex pt-2">
@@ -27,7 +27,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Email</span>
-              <span><a target="_blank" href="mailto:lamamediaop@gmail.com">lamamediaop@gmail.com</a></span>
+              <span><a target="_blank" rel="noreferrer" href="mailto:lamamediaop@gmail.com">lamamediaop@gmail.com</a></span>
             </div>
           </div>
           <div className="flex pt-2">
@@ -37,7 +37,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col text-[#fff] ">
               <span>Instagram</span>
-              <span><a target="_blank" href="https://www.instagram.com/lama__media/">@lama-media</a></span>
+              <span><a target="_blank" rel="noreferrer" href="https://www.instagram.com/lama__media/">@lama-media</a></span>
             </div>
           </div>
         </div>
