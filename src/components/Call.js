@@ -105,8 +105,10 @@ const Call = () => {
             </ul>
           </div>
           <div>
-            <a className=" leading-5 text-[10px] sm:text-[18] md:text-[24px] text-gray-100" href="https://calendly.com/lamamedia">
-              <button className="bg-[#b90edf] mainBtn mr-[1rem]  text-white py-[10px] sm:py-[14px] px-10  rounded-full">Book a time</button>
+            <a target="blank_" href="https://calendly.com/lamamedia">
+              <button className="bg-[#fc3792] rounded text-white py-2 px-4">
+                Schedule your free audio call
+              </button>
             </a>
           </div>
         </div>
