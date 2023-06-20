@@ -41,33 +41,6 @@ function ContactForm() {
             </div>
           </div>
         </div>
-        <form className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <input className="py-2 px-4 text-[#000]" type="text" placeholder="Your Name" />
-            <input
-              className="py-2 px-4 text-[#000]"
-              type="email"
-              placeholder="Your Email"
-            />
-          </div>
-          <textarea
-            rows={5}
-            className="py-2 px-4 text-[#000] w-full"
-            placeholder="Your Message"
-          ></textarea>
-          <div className="flex items-center">
-            <input
-              type="checkbox"
-              id="privacy-policy"
-              name="privacy-policy"
-              className="mr-2"
-            />
-            <label htmlFor="privacy-policy" ><span style={{color:"white"}}>I accept the privacy policy</span></label>
-          </div>
-          <button className="bg-[#fc3792] rounded text-white py-2 px-4">
-            Send Message
-          </button>
-        </form>
       </div>
       </div>
     </div>
